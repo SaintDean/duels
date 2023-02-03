@@ -14,9 +14,9 @@ while 1:
     pyautogui.moveTo(897,709, duration=0.7)
     pyautogui.leftClick() #Click Attack
     time.sleep(np.random.uniform(1.8,2.5))
-    pyautogui.press('Enter')
+    pyautogui.press('Enter') #Duel finished - Okay
     time.sleep(np.random.uniform(1.5,2.3))
     pyautogui.moveTo(951,675, duration=1)
-    pyautogui.leftClick()
+    pyautogui.leftClick() #Milestones OK
     time.sleep(np.random.uniform(602,605))
 
